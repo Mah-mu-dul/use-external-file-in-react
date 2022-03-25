@@ -13,10 +13,11 @@ const Countries = () => {
             <h1>total country : {countries.length}</h1>
             {
                 countries.map(country => <Country
-                    name={country.name.common}
-                    capital={country.capital}
-                    population={country.population}
-                    area={country.area}
+                    country={country}  //you  can send whole country to props ans access every item from countries 
+                // name={country.name.common}
+                // capital={country.capital}
+                // population={country.population}
+                // area={country.area}
                 ></Country>)
             }
         </div>

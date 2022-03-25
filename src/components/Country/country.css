@@ -8,3 +8,6 @@
 .container h1 {
     color: rgb(9, 19, 172);
 }
+.container img{
+    width: 200px;
+}
